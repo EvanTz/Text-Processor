@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="datamodel.buildingblocks.Document" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/datamodel/buildingblocks/Document.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1208" y="818"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="datamodel.rules.RuleStartWith" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/datamodel/rules/RuleStartWith.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="752" y="1256"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="datamodel.ruleset.RuleSetCreator" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/datamodel/ruleset/RuleSetCreator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-37" y="663"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="datamodel.rules.RuleInPosition" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/datamodel/rules/RuleInPosition.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="271" y="1236"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="dataload.RawFileLineLoader" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/dataload/RawFileLineLoader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="861" y="20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="engine.IPlainTextDocumentEngine" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/engine/IPlainTextDocumentEngine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1311" y="-40"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="7" language="java" name="datamodel.buildingblocks.FormatEnum" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/datamodel/buildingblocks/FormatEnum.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="650" y="-64"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="8" language="java" name="datamodel.buildingblocks.LineBlock" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/datamodel/buildingblocks/LineBlock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="321" y="328"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="9" language="java" name="datamodel.buildingblocks.StyleEnum" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/datamodel/buildingblocks/StyleEnum.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="471" y="-22"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="10" language="java" name="datamodel.rules.AbstractRule" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/datamodel/rules/AbstractRule.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="528" y="947"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="datamodel.ruleset.RuleSet" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/datamodel/ruleset/RuleSet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="820" y="604"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="datamodel.rules.RuleUndefined" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/datamodel/rules/RuleUndefined.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1001" y="1229"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="datamodel.rules.RuleAllCaps" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/datamodel/rules/RuleAllCaps.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="573" y="1244"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="datamodel.rules.ConcreteRuleFactory" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/datamodel/rules/ConcreteRuleFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-191" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="15" language="java" name="datamodel.buildingblocks.Document.DocumentRawType" 
+    project="3088_TextProcessor" file="/3088_TextProcessor/src/datamodel/buildingblocks/Document.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1356" y="1037"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="16" language="java" name="engine.Engine" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/engine/Engine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="405" x="1171" y="173"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="client.ClientUI" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/client/ClientUI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1734" y="-32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="exporters.PdfExporter" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/exporters/PdfExporter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1510" y="664"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="exporters.MarkdownExporter" project="3088_TextProcessor" 
+    file="/3088_TextProcessor/src/exporters/MarkdownExporter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1572" y="790"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="20">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="21" name="doc"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="25">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="26" name="lineblocks">        
+        <position height="0" width="0" x="-132" y="203"/>      
+      </attribute>      
+      <multiplicity id="27" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-132" y="203"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="29">    
+    <bendpoint x="1062" y="454"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="30">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="32">    
+    <bendpoint x="-130" y="1338"/>    
+    <bendpoint x="756" y="1338"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="34">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="35" name="lineblocks">        
+        <position height="0" width="0" x="-132" y="203"/>      
+      </attribute>      
+      <multiplicity id="36" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-132" y="203"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <bendpoint x="174" y="961"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="38" name="omitRule">        
+        <position height="18" width="48" x="382" y="935"/>      
+      </attribute>      
+      <multiplicity id="39" minimum="0" maximum="1">        
+        <position height="16" width="23" x="400" y="953"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="40">    
+    <bendpoint x="950" y="-50"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="41">    
+    <bendpoint x="877" y="892"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="42" name="h2Rule">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="43" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="45">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="46" name="factory">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="47" minimum="0" maximum="1">        
+        <position height="16" width="23" x="-145" y="950"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <association id="49">    
+    <bendpoint x="244" y="877"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="50" name="h2Rule">        
+        <position height="18" width="41" x="369" y="835"/>      
+      </attribute>      
+      <multiplicity id="51" minimum="0" maximum="1">        
+        <position height="16" width="23" x="365" y="854"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="53" name="lineblocks"/>      
+      <multiplicity id="54" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="55">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="56">    
+    <bendpoint x="1738" y="350"/>    
+    <bendpoint x="1738" y="1418"/>    
+    <bendpoint x="-410" y="1424"/>    
+    <bendpoint x="-410" y="680"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="57">    
+    <bendpoint x="602" y="730"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="58" name="omitRule">        
+        <position height="18" width="48" x="639" y="856"/>      
+      </attribute>      
+      <multiplicity id="59" minimum="0" maximum="1">        
+        <position height="16" width="23" x="647" y="882"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="60">    
+    <bendpoint x="-46" y="1315"/>    
+    <bendpoint x="571" y="1315"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="61">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <association id="62">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="63" name="pLineblocks"/>      
+      <multiplicity id="64" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <bendpoint x="326" y="819"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="66" name="h1Rule">        
+        <position height="18" width="41" x="389" y="895"/>      
+      </attribute>      
+      <multiplicity id="67" minimum="0" maximum="1">        
+        <position height="16" width="23" x="402" y="917"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="68">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <nesting id="69">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="15"/>  
+  </nesting>  
+  <association id="70">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="71" name="doc"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="73">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="74">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="75">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="76">    
+    <bendpoint x="1640" y="510"/>    
+    <bendpoint x="1640" y="736"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="77">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="78">    
+    <bendpoint x="394" y="745"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="79" name="boldRule">        
+        <position height="18" width="49" x="385" y="978"/>      
+      </attribute>      
+      <multiplicity id="80" minimum="0" maximum="1">        
+        <position height="16" width="23" x="413" y="1005"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="81">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="82">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="83" name="document">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="84" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="85">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="86">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="87">    
+    <bendpoint x="1008" y="962"/>    
+    <bendpoint x="656" y="754"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="88">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <generalization id="89">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="90">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="91" name="style"/>      
+      <multiplicity id="92" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="93">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <realization id="94">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <dependency id="95">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <generalization id="96">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <dependency id="97">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="98">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="99">    
+    <bendpoint x="324" y="-86"/>    
+    <bendpoint x="476" y="-148"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="100">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="101" name="inputRuleSet">        
+        <position height="0" width="0" x="18" y="-22"/>      
+      </attribute>      
+      <multiplicity id="102" minimum="0" maximum="1">        
+        <position height="0" width="0" x="18" y="-22"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="103">    
+    <bendpoint x="722" y="767"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="104" name="boldRule">        
+        <position height="18" width="49" x="517" y="839"/>      
+      </attribute>      
+      <multiplicity id="105" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="106">    
+    <bendpoint x="793" y="812"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="107" name="h1Rule">        
+        <position height="18" width="41" x="589" y="841"/>      
+      </attribute>      
+      <multiplicity id="108" minimum="0" maximum="1">        
+        <position height="16" width="23" x="532" y="858"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="109">    
+    <bendpoint x="474" y="1130"/>    
+    <bendpoint x="350" y="1082"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="110">    
+    <bendpoint x="132" y="1066"/>    
+    <bendpoint x="323" y="1047"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="111" name="italicsRule">        
+        <position height="18" width="56" x="412" y="809"/>      
+      </attribute>      
+      <multiplicity id="112" minimum="0" maximum="1">        
+        <position height="16" width="23" x="438" y="836"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="113">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="114">    
+    <bendpoint x="810" y="942"/>    
+    <bendpoint x="632" y="812"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <generalization id="115">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="116">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="117" name="format"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="119">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="120">    
+    <bendpoint x="-238" y="965"/>    
+    <bendpoint x="-236" y="328"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="121">    
+    <bendpoint x="996" y="806"/>    
+    <bendpoint x="938" y="1018"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="122" name="italicsRule">        
+        <position height="18" width="56" x="632" y="950"/>      
+      </attribute>      
+      <multiplicity id="123" minimum="0" maximum="1">        
+        <position height="16" width="23" x="648" y="971"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="124">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="125">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="126">    
+    <bendpoint x="-197" y="1351"/>    
+    <bendpoint x="1011" y="1347"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <association id="127">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="128" name="docType"/>      
+      <multiplicity id="129" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
